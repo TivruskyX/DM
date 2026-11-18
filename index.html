@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101016">
+  <meta name="description" content="Mystery Lens — a journal of haunted places, forgotten history, strange phenomena and the world's most fascinating mysteries.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Mystery Lens — Look Beyond the Ordinary">
+  <meta property="og:description" content="Explore the stories hiding in plain sight. Folklore, unexplained places, and forgotten history.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="alternate" type="application/atom+xml" title="Mystery Lens Blogger feed" href="https://mysterylens.blogspot.com/feeds/posts/default">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Mystery Lens — Look Beyond the Ordinary</title>
+</head>
+<body>
+  <a class="skip-link" href="#stories">Skip to stories</a>
+  <div class="announcement"><span class="announcement-dot"></span> A JOURNAL FOR THE CURIOUS <span class="announcement-line"></span> FACTS · FOLKLORE · THE UNKNOWN</div>
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="#top" class="brand" aria-label="Mystery Lens home">
+        <img src="assets/favicon.svg" alt="" width="38" height="38">
+        <span>MYSTERY<span class="brand-highlight">LENS</span><small>EXPLORE THE UNEXPLAINED</small></span>
+      </a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation" aria-controls="site-nav" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a class="nav-active" href="#top">Home</a>
+        <a href="#stories">The Journal</a>
+        <a href="#topics">Explore Topics</a>
+        <a href="#about">Our Story</a>
+        <a class="mobile-blog-link" href="https://mysterylens.blogspot.com/">Full archive ↗</a>
+      </nav>
+      <a class="header-cta" href="https://mysterylens.blogspot.com/">Explore archive <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-glow"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="tiny-star">✦</span> BEYOND THE EVERYDAY <span class="eyebrow-rule"></span> ISSUE 001</div>
+          <h1 id="hero-title">There is more<br>to the world<br>than <em>meets the eye.</em></h1>
+          <p>Strange places. Forgotten stories. Unanswered questions. Your curiosity has a home here.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#stories">Explore the stories <span aria-hidden="true">↗</span></a>
+            <a class="text-link" id="hero-latest" href="https://mysterylens.blogspot.com/">Read the latest <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="hero-foot"><span class="sparkle">✳</span> A DIFFERENT PERSPECTIVE ON THE UNKNOWN</div>
+        </div>
+        <div class="hero-art-wrap">
+          <div class="hero-art-outline"></div>
+          <img class="hero-art" src="assets/hero-portal.svg" alt="Illustration of a mysterious circular portal beneath a starry night sky" fetchpriority="high">
+          <span class="art-orbit-label label-top">THE UNDISCOVERED</span>
+          <span class="art-orbit-label label-bottom">LOOK CLOSER <span aria-hidden="true">↗</span></span>
+          <span class="hero-corner-symbol" aria-hidden="true">✧</span>
+        </div>
+      </div>
+      <div class="hero-bottom container"><span>SCROLL TO UNRAVEL <span aria-hidden="true">↓</span></span><span>01 / INFINITE POSSIBILITIES</span></div>
+    </section>
+
+    <section class="intro-band" aria-label="Introduction">
+      <div class="container intro-inner"><span class="intro-mark">✳</span><p>Not every story has an answer. <strong>That's what makes it worth exploring.</strong></p><span class="intro-index">THE MYSTERY LENS PHILOSOPHY / 001</span></div>
+    </section>
+
+    <section class="journal section-pad" id="stories" aria-labelledby="stories-title">
+      <div class="container">
+        <div class="section-top"><div><div class="section-kicker"><span class="section-kicker-line"></span> FROM THE JOURNAL</div><h2 id="stories-title">Stories to get <em>lost in.</em></h2><p class="section-subtext">A collection of curiosities from the edges of history, legend, and the unexplained.</p></div><span class="section-index">01 — DISCOVER</span></div>
+        <div class="toolbar" id="topics">
+          <div class="topic-filters" id="topic-filters" role="group" aria-label="Filter by topic">
+            <button class="filter-btn active" type="button" data-filter="All" aria-pressed="true">All stories</button>
+            <button class="filter-btn" type="button" data-filter="Haunted Places" aria-pressed="false">Haunted places</button>
+            <button class="filter-btn" type="button" data-filter="History & Places" aria-pressed="false">History & places</button>
+            <button class="filter-btn" type="button" data-filter="Folklore" aria-pressed="false">Folklore</button>
+            <button class="filter-btn" type="button" data-filter="Curiosities" aria-pressed="false">Curiosities</button>
+          </div>
+          <label class="search-box" for="story-search">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="10.8" cy="10.8" r="7.3"/><path d="m16.2 16.2 5 5"/></svg>
+            <input type="search" id="story-search" placeholder="Search stories..." autocomplete="off">
+            <span class="search-shortcut">⌕</span>
+          </label>
+        </div>
+        <div class="feed-notice" id="feed-notice" role="status" aria-live="polite">Handpicked from the Mystery Lens archive</div>
+        <div class="stories-grid" id="stories-grid" aria-live="polite"></div>
+        <div id="empty-state" class="empty-state" hidden><span aria-hidden="true">✳</span><h3>No mysteries found.</h3><p>Try another search or select a different topic.</p><button type="button" id="clear-search" class="btn btn-primary">View all stories ↗</button></div>
+        <div class="journal-footer"><p id="result-count">Discover more beyond the ordinary.</p><button class="btn btn-outline" type="button" id="load-more" hidden>Load more stories <span aria-hidden="true">↓</span></button><a class="btn btn-outline" href="https://mysterylens.blogspot.com/" id="blog-archive-link">Browse complete archive <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="quote-section" id="about" aria-labelledby="about-title">
+      <div class="container quote-grid"><div class="quote-graphic"><img src="assets/about-eye.svg" alt="" loading="lazy"><span>KEEP QUESTIONING / ALWAYS EXPLORING</span></div><div class="quote-content"><div class="section-kicker">THE STORY BEHIND THE LENS</div><h2 id="about-title">A little curiosity<br>goes a <em>long way.</em></h2><p>Mystery Lens is a space for anyone who has ever wondered what's hidden behind a legend, beyond a familiar place, or within a forgotten piece of history.</p><p>From haunting folklore to remarkable natural phenomena, the stories here invite you to look a little closer.</p><a href="https://mysterylens.blogspot.com/" class="text-link text-link-light">Explore the full archive <span aria-hidden="true">↗</span></a></div></div>
+    </section>
+
+    <section class="cta-section"><div class="container cta-inner"><div><span class="section-kicker">STAY CURIOUS</span><h2>The next mystery<br><em>is waiting.</em></h2><p>There's always another story worth uncovering.</p></div><a class="btn btn-primary" href="https://mysterylens.blogspot.com/">Discover more stories <span aria-hidden="true">↗</span></a><span class="cta-decoration" aria-hidden="true">✳</span></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-main"><div class="footer-brand"><a href="#top" class="brand"><img src="assets/favicon.svg" alt="" width="36" height="36"><span>MYSTERY<span class="brand-highlight">LENS</span><small>EXPLORE THE UNEXPLAINED</small></span></a><p>For minds that never stop wondering.</p></div><div class="footer-links"><span>EXPLORE</span><a href="#top">Home</a><a href="#stories">Stories</a><a href="#topics">Topics</a><a href="#about">About</a></div><div class="footer-links"><span>ORIGINAL CONTENT</span><a href="https://mysterylens.blogspot.com/">Complete archive ↗</a><a href="https://mysterylens.blogspot.com/feeds/posts/default">RSS / Atom feed ↗</a></div></div><div class="container footer-bottom"><span>© <span id="year"></span> MYSTERY LENS. ALL RIGHTS RESERVED.</span><span>CRAFTED FOR THE CURIOUS <span aria-hidden="true">✳</span></span></div></footer>
+  <script src="script.js" defer></script>
+</body>
+</html>
